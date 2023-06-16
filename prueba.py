@@ -5,7 +5,7 @@ Las cuales son cargados al programa.
 Cada vehiculo tiene los siguientes datos:
 
     <nombre_vehiculo>
-    <marca>
+    <fabricante>
     <año>
     <precio>
     <patente_vehiculo>
@@ -13,7 +13,7 @@ Cada vehiculo tiene los siguientes datos:
 Su programa debe mostrar un menu con las siguientes a continuación.
 
 1. Buscar 1 auto.
-    Se puede buscar un auto por su "nombre/modelo" , "marca" o "año".
+    Se puede buscar un auto por su "nombre/modelo" , "fabricante" o "año".
     Se deben mostrar todos los datos del vehiculo.
 
 2. Imprimir Certificado
@@ -21,7 +21,7 @@ Su programa debe mostrar un menu con las siguientes a continuación.
     Luego debe imprimir un certificado de la siguiente forma:
 
         <nombre_usuario> emite certificado que:
-        El vehiculo <marca> <nombre_vehiculo> con patente <patente_vehiculo>
+        El vehiculo <fabricante> <nombre_vehiculo> con patente <patente_vehiculo>
         Con valor : $ <precio>
         Queda registrado oficialmente a la fecha de <fecha>
 

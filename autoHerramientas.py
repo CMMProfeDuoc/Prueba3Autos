@@ -18,8 +18,8 @@ def obtenerAutos (nombre_archivo:str="Autos1",tipo_lista:str="diccionario") -> l
 	lista_autos = []
 	for elemento in lista:
 		aux = {
-			"modelo":elemento[0],
-			"marca":elemento[1],
+			"modelo":elemento[1],
+			"marca":elemento[0],
 			"año":elemento[2],
 			"patente":elemento[3],
 			"color":elemento[4]

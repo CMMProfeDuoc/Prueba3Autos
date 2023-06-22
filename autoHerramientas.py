@@ -1,0 +1,36 @@
+def load_file (file_name:str="test",extension:str=".csv") -> list:
+	lista = []
+	file_name += extension
+	file = open(file_name,"r")
+
+	for count, line in enumerate(file):
+		line = line.strip()
+		aux = line.split(";")
+		lista.append(aux)
+	file.close()
+	return lista
+
+def obtenerAutos (nombre_archivo:str="Autos1",tipo_lista:str="diccionario") -> list:
+	lista = load_file(nombre_archivo)
+	if (tipo_lista.lower() == "lista"):
+		return lista
+	
+	lista_autos = []
+	for elemento in lista:
+		aux = {
+			"modelo":elemento[0],
+			"marca":elemento[1],
+			"año":elemento[2],
+			"patente":elemento[3],
+			"color":elemento[4]
+		}
+		lista_autos.append(aux)
+	return lista_autos
+
+def pausa () -> None:
+	import os
+	os.system("pause")
+
+def limpiarPantalla () -> None:
+	import os
+	os.system("cls")

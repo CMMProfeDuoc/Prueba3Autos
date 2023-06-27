@@ -1,0 +1,69 @@
+Una compañia automovilistica le pide crear un programa para ordenar sus automoviles.
+A usted se le otorga una serie de listas con varios automoviles
+Las cuales son cargados al programa.
+Cada vehiculo tiene los siguientes datos:
+
+    <marca>
+    <modelo>
+    <año>
+    <patente>
+    <color>
+
+Además, su programa iniciara preguntando ciertos datos:
+    nombre_usuario
+    fecha_actual
+    color_favorito
+
+Su programa debe mostrar un menu con las siguientes a continuación.
+
+1 - Buscar 1 auto por Modelo / Marca. << OBLIGATORIO
+    Se puede buscar un auto por su "modelo".
+    Se deben mostrar todos los datos del vehiculo.
+
+2 -Imprimir la lista
+    El usuario podra escribir una llave y un parametro y
+    el programa debe mostrar toda la lista de vehiculos que cumplan esa condicion
+
+3 - Imprimir Certificado << OBLIGATORIO
+    El usuario selecciona un automovil.
+    Luego debe imprimir un certificado de la siguiente forma:
+
+        <nombre_usuario> emite certificado que:
+        El vehiculo <marca> <modelo> con patente <patente>
+        De color <color>
+        Queda registrado oficialmente a la fecha de <fecha>
+
+4 - Buscar por patente
+    El programa debe preguntar por una patente y buscar
+    todos los automoviles que tengan esa patente EXACTA.
+    PUEDE HABER MÁS DE 1
+
+5 - Buscar por rango de año
+    El programa preguntara por dos numeros (int) y mostrara
+    todos los automoviles dentro del rango de los numeros ingresados
+
+6 - Agregar informacion de Dueño al automovil
+    El usuario seleccionará un automovil (usando alguna de las funciones de busqueda)
+    y luego podra registrar su nombre en el auto bajo el atributo:
+    "nombre_propietario"
+
+7 - Mostrar todos los automoviles del color favorito del usuario
+    El programa muestra todos los automoviles del color favorito del usuario
+
+Salir.
+    El programa debe cerrarse y terminar. (se finaliza el programa)
+
+Luego de realizar una accion, el programa debe volver al menu principal
+(excepto por la opcion Salir).
+
+--------------
+
+CADA UNA DE LAS FUNCIONES TIENE UN PUNTAJE DE 25 puntos
+(Si esta hecha de forma correcta)
+Puede escojer cualquier funcion para realizar, pero debe realizar al menos 4
+
+100 puntos = 7
+87 puntos = 6
+80 puntos = 5.5
+60 puntos = 4
+50 puntos = 3.5

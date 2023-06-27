@@ -20,7 +20,7 @@ def obtenerAutos (nombre_archivo:str="Autos1",tipo_lista:str="diccionario") -> l
 		aux = {
 			"modelo":elemento[1],
 			"marca":elemento[0],
-			"año":elemento[2],
+			"año":int(elemento[2]),
 			"patente":elemento[3],
 			"color":elemento[4]
 		}

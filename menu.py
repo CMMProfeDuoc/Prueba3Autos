@@ -3,6 +3,12 @@
 
 from autoHerramientas import *
 
+#Con esto puede llamar a cualquier funcion creada en prueba.py
+from prueba import *
+
+#lista de autos
+lista_autos = obtenerAutos("Autos2")
+
 opciones_menu = [
     "Opcion 1",
     "Opcion 2",

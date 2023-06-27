@@ -34,3 +34,9 @@ def pausa () -> None:
 def limpiarPantalla () -> None:
 	import os
 	os.system("cls")
+
+def validar_seleccion (sel, lista:list) -> bool:
+	if (str(sel).isnumeric()):
+		if (int(sel) in range(len(lista)+1)):
+			return True
+	return False

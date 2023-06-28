@@ -1,6 +1,5 @@
 #------NO CAMBIAR ---------
 from autoHerramientas import *
-import datetime
 #---------------------------
 #puede cargar cualquier archivo cambiando este parametro
 nombre_archivo = "AutosTEST2"

@@ -26,6 +26,9 @@ Su programa debe mostrar un menu con las siguientes a continuación.
 
 3 - Imprimir Certificado << OBLIGATORIO
     El usuario selecciona un automovil.
+    PARA SELECCIONAR UN AUTOMOVIL SE DEBE IMPRIMIR UNA LISTA Y LUEGO EL USUARIO SELECCIONA
+    NO SE PUEDE SELECCIONAR USANDO LA PATENTE <<<<<<<<<<<<
+    (recuerde que el programa sera probado con listas y diccionarios del todo igual a los de muestra)
     Luego debe imprimir un certificado de la siguiente forma:
 
         <nombre_usuario> emite certificado que:

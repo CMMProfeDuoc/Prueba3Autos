@@ -53,6 +53,11 @@ Su programa debe mostrar un menu con las siguientes a continuación.
 7 - Mostrar todos los automoviles del color favorito del usuario
     El programa muestra todos los automoviles del color favorito del usuario
 
+8 - Buscar por "nombre_propietario"
+    El programa muestra todos los autos asociados a un propietario.
+    Si en esta opcion el usuario no ingresa nada, el programa muestra todos los
+    autos asociados al usuario.
+
 Salir.
     El programa debe cerrarse y terminar. (se finaliza el programa)
 

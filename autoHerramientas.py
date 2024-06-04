@@ -41,8 +41,5 @@ def validar_seleccion (sel, lista:list) -> bool:
 			return True
 	return False
 
-def tocarBocina (cantidad:int) -> None:
-	print("pip "*cantidad)
-
-def chocar () -> None:
-	print("BOOM")
+def limpiarVidrios () -> None:
+	print("vidrios limpios")

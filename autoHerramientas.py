@@ -42,4 +42,4 @@ def validar_seleccion (sel, lista:list) -> bool:
 	return False
 
 def tocarBocina () -> None:
-	print("pip")
+	print("pipo")

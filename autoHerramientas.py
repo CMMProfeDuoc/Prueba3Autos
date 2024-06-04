@@ -40,3 +40,6 @@ def validar_seleccion (sel, lista:list) -> bool:
 		if (int(sel) in range(len(lista)+1)):
 			return True
 	return False
+
+def tocarBocina () -> None:
+	print("pip")
